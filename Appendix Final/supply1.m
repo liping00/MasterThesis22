@@ -1,4 +1,4 @@
-function [xdot] = supplytest1(t,x,tau)
+function [xdot] = supply1(t,x,tau)
 % Supply boat model from Marine Systems Simulator toolbox
 % https://github.com/cybergalactic/MSS/blob/master/VESSELS/supply.m
 % [xdot, U] = supply(x,tau) returns the speed the time derivative xdot = A*x + B*tau
